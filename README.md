@@ -39,7 +39,7 @@ source venv/bin/activate
 Токен нужно получить у @BotFather и подставить его в значение TOKEN.
 
 ```bash
-echo "TOKEN = """ > .env
+echo "TELEGRAM_TOKEN = """ > .env
 ```
 
 Обновление pip, установка зависимостей и запуск:
