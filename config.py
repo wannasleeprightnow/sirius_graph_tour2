@@ -1,1 +1,6 @@
-TOKEN = "6568272438:AAEs6K9pIwVTsFyIPQotcmwaPoPwyDEAF24"
+from os import environ
+
+from dotenv import load_dotenv
+
+load_dotenv()
+TOKEN = environ.get("TELEGRAM_TOKEN")
